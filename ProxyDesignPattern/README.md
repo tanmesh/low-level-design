@@ -25,8 +25,11 @@ Proxy pattern is used to control access to an object, allowing for various purpo
 
 ## How can it be implemented?
 The implementation of Proxy Design Pattern involves:
+
 1. Creating an interface that both the proxy and the real subject implement.
 2. Developing a proxy class that acts as an intermediary, holding a reference to the real subject.
 3. Implementing the proxy methods to control access to the real subject by adding additional functionalities as required.
 4. Using the proxy class to access the real subject.
 
+
+![uml](https://github.com/tanmesh/low-level-design/assets/20218124/c8707700-1726-463b-868b-654a5efc1351)
